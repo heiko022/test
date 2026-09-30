@@ -58,15 +58,15 @@ function tabsHTML(){
 function openDetail(id){
   const c = CONCEPTS.find(x=>x.id===id);
   const posts = POSTS.filter(p=>p.handle===c.handle);
-  $("html").scrollTop=0; window.scrollTo(0,0);
-  $("#gridsec").style.display="none";
+  window.scrollTo(0,0);
+  $("#concepts").style.display="none";
   $("#detail").classList.add("active");
   $("#detail").innerHTML = detailHTML(c, posts);
 }
 
 function closeDetail(){
   $("#detail").classList.remove("active");
-  $("#gridsec").style.display="block";
+  $("#concepts").style.display="block";
 }
 
 function detailHTML(c, posts){
