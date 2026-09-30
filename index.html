@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Concept Studio · Testprojekt</title>
+<meta name="description" content="Autonomes Social-Media-Teststudio: 10 Instagram-Konzepte mit 30 Posts, Bildern, GIFs und Reels.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand"><span class="dot">◎</span> Instagram Concept Studio</div>
+    <div class="navspacer"></div>
+    <nav class="topnav">
+      <a href="#concepts">Konzepte</a>
+      <a href="#about">Über das Experiment</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="kicker">Autonomes Content-Experiment · 2026</span>
+    <h1>10 Instagram-Nischen,<br><span class="g">komplett auto-generiert.</span></h1>
+    <p class="sub">Ein testbares Social-Media-Studio: zehn unterschiedliche Konto-Konzepte mit echten Bildern, animierten GIFs,
+    vertikalen Reels, Captions und Hashtags – erstellt und veröffentlicht als GitHub-Pages-Projekt. <strong>Noch nicht online auf Instagram.</strong></p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#concepts">Konzepte ansehen</a>
+      <a class="btn btn-ghost" href="content/posts.json" target="_blank">posts.json ↵</a>
+      <a class="btn btn-ghost" href="content/captions.md" target="_blank">Alle Captions</a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b id="st-concepts">–</b><span>Konzepte</span></div>
+    <div class="stat"><b id="st-posts">–</b><span>Posts</span></div>
+    <div class="stat"><b id="st-images">–</b><span>Bilder</span></div>
+    <div class="stat"><b id="st-gifs">–</b><span>GIFs</span></div>
+    <div class="stat"><b id="st-reels">–</b><span>Reels</span></div>
+  </div>
+</div>
+
+<section id="concepts" class="wrap">
+  <div class="sec">
+    <h2>Die 10 Konzepte</h2>
+    <div class="note">Verschiedene Nischen, Formate & Monetarisierungswege</div>
+  </div>
+  <div class="tabs" id="tabs"></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="detail" class="wrap"></section>
+
+<section id="about" class="wrap">
+  <div class="sec"><h2>Über das Experiment</h2></div>
+  <div style="color:var(--mut);max-width:760px;font-size:15px;line-height:1.7">
+    <p>Dieses Repository ist ein <strong>autonomes Testprojekt</strong>. Ein Agent hat selbstständig:</p>
+    <ol style="margin:14px 0 0 20px;display:grid;gap:8px">
+      <li>Marktrecherche betrieben (<code>research/market-research.md</code> + <code>research/sources.md</code>)</li>
+      <li>10 unterschiedliche Instagram-Konzepte entworfen (<code>concepts/</code>, je mit Bild-, GIF- und Reel-Strategie)</li>
+      <li>Echte Medien programmatisch erzeugt: 30 Bilder, 10 animierte GIFs, 10 vertikale Reels (9:16)</li>
+      <li>30 konkrete Posts samt Captions & Hashtags geschrieben (<code>content/posts.json</code>)</li>
+      <li>Eine responsive Dashboard-Website gebaut (<code>index.html</code>, <code>css/</code>, <code>js/</code>)</li>
+    </ol>
+    <p style="margin-top:18px">Ziel: prüfen, wie autonom ein Social-Media-Content-Studio aufgebaut werden kann – <strong>ohne</strong> auf Instagram zu posten.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Instagram Concept Studio · generiertes Testprojekt</span>
+    <span>Repository: <a href="https://github.com/heiko022/test" target="_blank" rel="noopener">heiko022/test</a></span>
+  </div>
+</footer>
+
+<div id="lbwrap" class="imgbig" onclick="closeZoom()">
+  <span class="x" title="Schließen">✕</span>
+  <img id="lightbox" src="" alt="Vergrößerung">
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

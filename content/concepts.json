@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1, "folder": "01-ai-tools-daily", "name": "KI-Tools täglich", "handle": "aitoolsdaily_de",
+    "niche": "AI Tools & Automation", "accent": "#6C5CE7",
+    "desc": "Täglich ein KI-Tool, verständlich erklärt für Menschen ohne Tech-Wissen.",
+    "zielgruppe": "Berufstätige, Selbstständige & Studenten (20-45) ohne Tech-Hintergrund, die KI praktisch nutzen wollen.",
+    "strategie": ["Tool der Woche", "How-To-Guides", "KI-Mythen entlarven", "Tools-Vergleiche"],
+    "frequenz": "5-7 Posts/Woche",
+    "monetarisierung": "Affiliate (Tool-Links), Sponsored Tools, eigene KI-Kurse/Guides",
+    "automatisierung": "Sehr hoch: Templates, KI-generierte Texte, Link-Auto-Posting",
+    "risiken": "Schnelle Tool-Veränderungen, Konkurrenz durch große Tech-Creator",
+    "tools": "Predis, Buffer, ChatGPT für Texte"
+  },
+  {
+    "id": 2, "folder": "02-urban-greens", "name": "Urban Greens", "handle": "urbangreens.de",
+    "niche": "Urban Gardening & Balkon", "accent": "#00B894",
+    "desc": "Kleine Oasen für Balkon, Fensterbank & Stadtwohnung – einfach umgesetzt.",
+    "zielgruppe": "Stadtbewohner (Millennials/Gen Z) in Mietwohnungen ohne Garten.",
+    "strategie": ["Anbau-Guides", "Pflanzen-Hacks", "Vorher/Nachher", "Saison-Challenges"],
+    "frequenz": "3-5 Posts/Woche",
+    "monetarisierung": "Affiliate (Pflanzen, Töpfe, Saatgut), UGC für Garten-Marken",
+    "automatisierung": "Hoch: saisonale Template-Planung, wiederverwendbare Kategorien",
+    "risiken": "Saisonalität, wiederholender Content",
+    "tools": "Later, Canva-Vorlagen, Saatgut-Kalender"
+  },
+  {
+    "id": 3, "folder": "03-minimal-mind", "name": "Minimal Minds", "handle": "minimalmind.de",
+    "niche": "Minimalismus & Mindset", "accent": "#636E72",
+    "desc": "Weniger Besitz, mehr Klarheit. Praktischer Minimalismus fürs Leben.",
+    "zielgruppe": "Über 25, gestresst von Konsum/Ordnung, auf der Suche nach schlankem Leben.",
+    "strategie": ["Ausmisten-Challenges", "Mindset-Zitate", "1-in-1-out-Regeln", "Digital Detox"],
+    "frequenz": "4-6 Posts/Woche",
+    "monetarisierung": "Digital Products (Minimalismus-Guides, Checklisten), Kurse",
+    "automatisierung": "Sehr hoch: Zitat- und Challenge-Vorlagen, Inhalte sind zeitlos",
+    "risiken": "Ideenrecycling, emotionale Reaktionen",
+    "tools": "Canva, Buffer, Notion-Redaktionsplan"
+  },
+  {
+    "id": 4, "folder": "04-gen-z-finance", "name": "Gen Z Finanz", "handle": "genz.finanz",
+    "niche": "Finanzen für Gen Z", "accent": "#0984E3",
+    "desc": "Geld einfach & ehrlich erklärt – für Studis, Azubis und den ersten Job.",
+    "zielgruppe": "Gen Z (16-30) mit erstem Einkommen, Finanz-Neulinge.",
+    "strategie": ["Budget-Regeln", "ETF-Erklärungen", "Spar-Challenges", "Fehlertherapie"],
+    "frequenz": "3-5 Posts/Woche",
+    "monetarisierung": "Höchste CPM: Affiliate (Broker, Depots), eigene Kurse, Sponsorships",
+    "automatisierung": "Hoch: Zahlen-/Regel-Grafiken, Templates",
+    "risiken": "Regulatorik (Anlageberatung!), Vertrauens- und Haftungsfragen",
+    "tools": "Canva, Finanz-Kalender, rechtliche Prüfung"
+  },
+  {
+    "id": 5, "folder": "05-code-schnell", "name": "Code Schnell", "handle": "code_schnell",
+    "niche": "Speed-Coding & Dev-Tipps", "accent": "#FF5E78",
+    "desc": "Kurze Dev-Hacks, Kommandos und Tipps – in unter einer Minute erklärt.",
+    "zielgruppe": "Angehende & junge Developer (18-35).",
+    "strategie": ["Shortcut-Listen", "Git-Kommandos", "Terminal-Hacks", "Quick Wins"],
+    "frequenz": "4-6 Posts/Woche",
+    "monetarisierung": "Sponsorships (Dev-Tools), Affiliate (Kurse/Cloud), eigene Micro-Kurse",
+    "automatisierung": "Hoch: Text-overlay Reels, wiederverwendbare Code-Snippets",
+    "risiken": "Fachlich präzise bleiben, schnelllebige Tools",
+    "tools": "Terminal-Aufnahme, OBS/Replit, VSCode"
+  },
+  {
+    "id": 6, "folder": "06-nachhaltig-leben", "name": "Nachhaltig leben", "handle": "nachhaltig.leben",
+    "niche": "Nachhaltigkeit & Umwelttipps", "accent": "#2E7D32",
+    "desc": "Kleine Schritte, große Wirkung – Nachhaltigkeit, die in den Alltag passt.",
+    "zielgruppe": "Umweltbewusste Erwachsene (20-45), ohne perfekte Vorstellung.",
+    "strategie": ["Zero-Waste-Swaps", "Second-Hand", "Energiespar-Hacks", "Fakten-Aufklärung"],
+    "frequenz": "3-5 Posts/Woche",
+    "monetarisierung": "Affiliate (Nachhaltige Produkte), Brand-Partnerships, E-Books",
+    "automatisierung": "Mittel-Hoch: Swaps & Fakten gut templatebar",
+    "risiken": "Greenwashing-Vorwürfe, hohe Authentizitäts-Erwartung",
+    "tools": "Canva, Nachhaltigkeits-Kalender, Quellencheck"
+  },
+  {
+    "id": 7, "folder": "07-home-office-hero", "name": "Homeoffice Hero", "handle": "homeoffice.hero",
+    "niche": "Remote Work & Produktivität", "accent": "#2D6A9F",
+    "desc": "Produktiver, gesünder und zufriedener im Homeoffice arbeiten.",
+    "zielgruppe": "Remote-Worker & Selbstständige (22-45).",
+    "strategie": ["Routinen", "Pomodoro", "Ergonomie-Fixes", "Tools-Reviews"],
+    "frequenz": "4-6 Posts/Woche",
+    "monetarisierung": "Affiliate (Ergonomie-Produkte, Software), UGC für Office-Marken",
+    "automatisierung": "Hoch: Routine-Tipps wiederverwendbar und zeitlos",
+    "risiken": "Viele ähnliche Accounts, Differenzierung nötig",
+    "tools": "Buffer, Canva, Fokus-Timer"
+  },
+  {
+    "id": 8, "folder": "08-pflanzen-liebe", "name": "Pflanzen Liebe", "handle": "pflanzen_liebe",
+    "niche": "Zimmerpflanzen & Gärtnern", "accent": "#2D6A4F",
+    "desc": "Dein Zimmer wird Dschungel – mit Liebe, Wasser und ein bisschen Wissen.",
+    "zielgruppe": "Pflanzen-Fans & Anfänger (18-45), die ihren ersten Dschungel aufbauen.",
+    "strategie": ["Unkaputtbare-Pflanzen", "Rettungs-Guides", "Umtopfen", "Pflege-Tipps"],
+    "frequenz": "3-5 Posts/Woche",
+    "monetarisierung": "Affiliate (Pflanzen, Töpfe, Dünger), Sponsored Plant-Brands",
+    "automatisierung": "Mittel: Pflege-Tipps gut templatable, Fotos nötig",
+    "risiken": "Verwechslung von Sorten, Pflege-Mythen",
+    "tools": "Canva, Later, Pflege-Kalender"
+  },
+  {
+    "id": 9, "folder": "09-kochen-20", "name": "Kochen 2.0", "handle": "kochen.20",
+    "niche": "Schnelle Rezepte & Food-Hacks", "accent": "#C0392B",
+    "desc": "In 15 Minuten auf dem Tisch – leckere & einfache Rezepte für den Alltag.",
+    "zielgruppe": "Koch-Anfänger & Berufstätige (20-50) mit wenig Zeit.",
+    "strategie": ["One-Pot-Rezepte", "Resteverwertung", "Kitchen-Hacks", "Meal-Prep"],
+    "frequenz": "4-7 Posts/Woche",
+    "monetarisierung": "Affiliate (Küchengeräte), Rezept-E-Book, Sponsored Food-Marken",
+    "automatisierung": "Mittel-Hoch: Rezept-Karten & Hack-Templates",
+    "risiken": "Appetit-Visuals brauchen Qualität, ggf. Fotoausrüstung",
+    "tools": "CapCut, Canva, Rezeptplaner"
+  },
+  {
+    "id": 10, "folder": "10-zitate-kraft", "name": "Zitate Kraft", "handle": "zitate.kraft",
+    "niche": "Motivation & Zitate", "accent": "#FBC531",
+    "desc": "Kraftvolle Worte für deinen Tag – Zitate, die mitten ins Herz treffen.",
+    "zielgruppe": "Breite Zielgruppe (16-60) in Umbruch- oder Wachstumsphasen.",
+    "strategie": ["Tageszitate", "Disziplin-Reihen", "Mental-Health-Inhalte", "Umfragen"],
+    "frequenz": "5-8 Posts/Woche",
+    "monetarisierung": "Höchste Automatisierbarkeit: Template, Affiliate, Brand-Deals langfristig",
+    "automatisierung": "Sehr hoch: Zitat-Templates, tägliche Posts fast vollautomatisch möglich",
+    "risiken": "Übersättigte Nische, Quote-Mühle ohne Persönlichkeit",
+    "tools": "Buffer, Canva/Template-Farm, Zitat-Datenbank"
+  }
+]
